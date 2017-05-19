@@ -1,0 +1,20 @@
+form a{
+  margin-left: 10px;
+}
+
+.app-name{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 50px;
+}
+
+.description-container{
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+}

@@ -1,0 +1,63 @@
+.projects-header{
+  margin-bottom: 0;
+}
+
+
+.projects-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.project{
+  width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.25em;
+}
+
+.project>img{
+  margin-bottom: 20px;
+}
+
+.more{
+  background-color: white;
+}
+
+.github{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #999999
+}
+
+.github>a{
+  color: #0099ff
+}
+
+.project-links:hover{
+  text-decoration: none;
+  color: #66ccff;
+  cursor: pointer;
+}
+
+.framework-image{
+  width: 300px;
+  display: block;
+  margin-top: 5px;
+}
+
+#react-image{
+  width: 130px;
+  margin: 0 auto;
+}
+
+.description{
+  text-align: center
+}
+.info{
+  color: white;
+}

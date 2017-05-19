@@ -1,0 +1,179 @@
+body{
+  background-color: rgb(76, 76, 76);
+  overflow-x: hidden;
+}
+
+a{
+  color: inherit;
+}
+
+.navbar{
+  background-color: rgb(255,255,255);
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.social-container{
+    background-color: #999999;
+}
+.social{
+  display: inline-block;
+  font-size: 2em;
+  padding-right: 55px;
+}
+
+.social>a>i{
+  color: #fff;
+  padding-left: 15px;
+}
+
+.social>a>i:hover{
+  color: #66ccff;
+}
+
+.icon-bar{
+  background-color: rgb(134, 134, 134);
+}
+.nav-style>li{
+  color: #999999;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-right: 40px;
+  padding-left: 15px;
+}
+
+.nav>li>a:hover {
+  color: #66ccff;
+  background-color: transparent;
+  border-top: 1px solid #66ccff;
+}
+
+.nav>li>a:focus{
+  color: inherit;
+  background-color: transparent;
+}
+.nav-link{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.intro-row{
+  background-color: #b3b3b3;
+  margin-top: 0;
+}
+.intro{
+  font-family: 'Palanquin Dark', sans-serif;
+  color: white;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.profile{
+  width: 700px;
+  margin-top: 60px;
+}
+.about-container{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+.about{
+  color: white;
+  line-height: 25px;
+  font-size: 1.25em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.knowledge{
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.title{
+  color: white;
+}
+
+.skills{
+  list-style: none;
+  font-size: 1.25em;
+}
+
+.skill-button, .skill-button:hover{
+  cursor: default;
+  background-color: #0099ff;
+}
+
+.skill-button:focus{
+  outline: none;
+}
+.skill-button:active{
+  background-color: #0099ff;
+  border-color: transparent;
+}
+
+.contact-row{
+  background-color: white;
+}
+
+.contact{
+  font-size: 5em;
+}
+
+.contact-column{
+  margin-top: 70px;
+}
+.contact-column{
+  color: #999999;
+}
+.contact-info:hover{
+  color:#66ccff;
+  text-decoration: none;
+}
+
+.fa-envelope{
+  font-size: 3.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social-footer{
+  font-size: 2.75em;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #999999;
+}
+
+.social-footer>a:hover{
+  color: #66ccff;
+}
+.copy{
+  margin-top: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .social{
+    padding-right: 10px;
+  }
+
+  .copyright{
+    text-align: center
+  }
+  .footer-links>ul>li{
+    display: inline-block;
+    text-align: center
+  }
+  .footer-links>ul{
+    text-align: center
+  }
+  .about-container{
+    margin-top: 15px;
+    width: 100%;
+  }
+}

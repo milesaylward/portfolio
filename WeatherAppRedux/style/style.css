@@ -1,0 +1,32 @@
+.input-group{
+  margin: 20px 0px;
+}
+
+td, th{
+  vertical-align: middle !important;
+  text-align: center !important;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+td:first-of-type{
+  height: 200px;
+  width: 250px;
+}
+
+td{
+  color: black;
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.app-name{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.description-container{
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+}
